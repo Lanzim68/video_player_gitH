@@ -1,0 +1,6 @@
+/*Пока ширина по max окна  */
+
+.my-video {
+        width: 100%;
+        max-width: 500px;
+    }
