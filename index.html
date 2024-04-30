@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>video</title>
-<style>
-body {
-background: #8B7355;
-}
-video {
- max-width: 50%;
- margin-left:25%;
- border: 2px solid #8B4513;
- 
-}
-h2 {
-text-align: center;
-color: #8B4513;
-}
-</style>
- </head>
- <body>
-  <video id="movie" controls poster="http://datakogda.ru/wp-content/uploads/2015/07/Kogda-vyydet-Graviti-Folz-3-sezon-data-vykhoda.jpg" preload="none">
-   <!--на месте этой ссылки вы вставите путь к своему видеофайлу-->
-    <source src="video/_video_1_New.mpg " type='video/mpeg'> 
-</video>
- <h2>Ссылка для скачивания видео 
-здесь.</h2>
-  <script>
-   var v = document.getElementById("movie");
-document.getElementById("movie").volume = 0.5;
-   v.onclick = function() {
-    if (v.paused) {
-     v.play();
-    } else {
-     v.pause();
-    }
-   };
-  </script>
- </body>
-</html>
 
-
-
-
-
-
-
-<!-- Тут первоначальный плеер
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,12 +6,12 @@ document.getElementById("movie").volume = 0.5;
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
--- Start your code here --
-<video class="my-video"controls>
-    <source src="video/frame1.mp4" type="video/mp4">
+
+<video class="my-video" controls
+  src="video/frame1.mp4">
 </video>
 <script src="vp.js"></script>
--- End your code here --
+
 </body>
 </html>
 -->
